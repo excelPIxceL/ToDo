@@ -1,5 +1,6 @@
 package com.example.todo_listjetpack
 
+import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -27,8 +28,7 @@ data class TaskItems (
 fun Todo() {
         var sItems by remember { mutableStateOf(listOf<TaskItems>()) }
         Column(
-                modifier = fillMaxSize()
-                        .padding(16.dp),
+                modifier = java.lang.reflect.Modifier.fillMaxSize(),
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
         ) {
