@@ -64,17 +64,6 @@ class MainActivity : ComponentActivity() {
 //            items(sItems){
 //
 //            }
-//        }
-//    }
-//}
 
 
-
-
-
-@Preview (showBackground = true)
-@Composable
-fun TodoPreview() {
-    Todo()
-}
 
